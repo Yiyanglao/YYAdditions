@@ -15,24 +15,6 @@
 		070F5ED3228A5BA400B30F79 /* YYAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5ED2228A5BA400B30F79 /* YYAdditionsTests.m */; };
 		070F5EDE228A5BA400B30F79 /* YYAdditionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EDD228A5BA400B30F79 /* YYAdditionsUITests.m */; };
 		070F5EF0228A662E00B30F79 /* YYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EEF228A662E00B30F79 /* YYHelper.m */; };
-		070F5F61228AC58A00B30F79 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F44228AC58700B30F79 /* NSArray+Addition.m */; };
-		070F5F62228AC58A00B30F79 /* UIColor+ZYQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F48228AC58800B30F79 /* UIColor+ZYQColor.m */; };
-		070F5F63228AC58A00B30F79 /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F4A228AC58800B30F79 /* UIView+Badge.m */; };
-		070F5F64228AC58A00B30F79 /* UILabel+Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F4B228AC58800B30F79 /* UILabel+Suit.m */; };
-		070F5F65228AC58A00B30F79 /* NSDate+FormatStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F4E228AC58800B30F79 /* NSDate+FormatStr.m */; };
-		070F5F66228AC58A00B30F79 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F50228AC58800B30F79 /* UIView+Addition.m */; };
-		070F5F67228AC58A00B30F79 /* CALayer+Seperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F54228AC58900B30F79 /* CALayer+Seperator.m */; };
-		070F5F68228AC58A00B30F79 /* UIButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F55228AC58900B30F79 /* UIButton+Gradient.m */; };
-		070F5F69228AC58A00B30F79 /* NSMutableAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F56228AC58900B30F79 /* NSMutableAttributedString+Addition.m */; };
-		070F5F6A228AC58A00B30F79 /* UITableViewCell+BottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F58228AC58900B30F79 /* UITableViewCell+BottomLine.m */; };
-		070F5F6C228AC58A00B30F79 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F5B228AC58900B30F79 /* NSString+IsEmpty.m */; };
-		070F5F6E228AC58A00B30F79 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F5F228AC58A00B30F79 /* UIButton+ImageTitleSpacing.m */; };
-		070F5F75228AC5CE00B30F79 /* YYDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F70228AC5CD00B30F79 /* YYDeviceType.m */; };
-		070F5F76228AC5CE00B30F79 /* YYPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F73228AC5CE00B30F79 /* YYPalette.m */; };
-		070F5F77228AC5CE00B30F79 /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F74228AC5CE00B30F79 /* UIHelper.m */; };
-		070F5F80228ACA0400B30F79 /* CardBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F7D228ACA0400B30F79 /* CardBaseView.m */; };
-		070F5F81228ACA0400B30F79 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F7F228ACA0400B30F79 /* PlaceholderTextView.m */; };
-		070F5F84228ACA5000B30F79 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5F83228ACA5000B30F79 /* GradientAlphaView.m */; };
 		4BB2AB380A077C320D37D9B5 /* Pods_YYAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25D592D2C458FD2A6AD82A /* Pods_YYAdditions.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,43 +54,6 @@
 		070F5EEC228A65DD00B30F79 /* YYAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAdditions.h; sourceTree = "<group>"; };
 		070F5EEE228A662E00B30F79 /* YYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
 		070F5EEF228A662E00B30F79 /* YYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHelper.m; sourceTree = "<group>"; };
-		070F5F43228AC58700B30F79 /* UIColor+ZYQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYQColor.h"; sourceTree = "<group>"; };
-		070F5F44228AC58700B30F79 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
-		070F5F45228AC58700B30F79 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		070F5F46228AC58800B30F79 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
-		070F5F47228AC58800B30F79 /* NSDate+FormatStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormatStr.h"; sourceTree = "<group>"; };
-		070F5F48228AC58800B30F79 /* UIColor+ZYQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQColor.m"; sourceTree = "<group>"; };
-		070F5F4A228AC58800B30F79 /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
-		070F5F4B228AC58800B30F79 /* UILabel+Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Suit.m"; sourceTree = "<group>"; };
-		070F5F4C228AC58800B30F79 /* UILabel+Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Suit.h"; sourceTree = "<group>"; };
-		070F5F4D228AC58800B30F79 /* NSMutableAttributedString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Addition.h"; sourceTree = "<group>"; };
-		070F5F4E228AC58800B30F79 /* NSDate+FormatStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormatStr.m"; sourceTree = "<group>"; };
-		070F5F4F228AC58800B30F79 /* UIButton+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradient.h"; sourceTree = "<group>"; };
-		070F5F50228AC58800B30F79 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
-		070F5F51228AC58800B30F79 /* CALayer+Seperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Seperator.h"; sourceTree = "<group>"; };
-		070F5F53228AC58900B30F79 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
-		070F5F54228AC58900B30F79 /* CALayer+Seperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Seperator.m"; sourceTree = "<group>"; };
-		070F5F55228AC58900B30F79 /* UIButton+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Gradient.m"; sourceTree = "<group>"; };
-		070F5F56228AC58900B30F79 /* NSMutableAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Addition.m"; sourceTree = "<group>"; };
-		070F5F57228AC58900B30F79 /* UITableViewCell+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BottomLine.h"; sourceTree = "<group>"; };
-		070F5F58228AC58900B30F79 /* UITableViewCell+BottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BottomLine.m"; sourceTree = "<group>"; };
-		070F5F59228AC58900B30F79 /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
-		070F5F5B228AC58900B30F79 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
-		070F5F5D228AC58A00B30F79 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
-		070F5F5F228AC58A00B30F79 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		070F5F6F228AC5CD00B30F79 /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
-		070F5F70228AC5CD00B30F79 /* YYDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDeviceType.m; sourceTree = "<group>"; };
-		070F5F71228AC5CD00B30F79 /* YYPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPalette.h; sourceTree = "<group>"; };
-		070F5F72228AC5CD00B30F79 /* YYDeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDeviceType.h; sourceTree = "<group>"; };
-		070F5F73228AC5CE00B30F79 /* YYPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPalette.m; sourceTree = "<group>"; };
-		070F5F74228AC5CE00B30F79 /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
-		070F5F7A228AC78400B30F79 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		070F5F7C228ACA0400B30F79 /* CardBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardBaseView.h; sourceTree = "<group>"; };
-		070F5F7D228ACA0400B30F79 /* CardBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardBaseView.m; sourceTree = "<group>"; };
-		070F5F7E228ACA0400B30F79 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
-		070F5F7F228ACA0400B30F79 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
-		070F5F82228ACA5000B30F79 /* GradientAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
-		070F5F83228ACA5000B30F79 /* GradientAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
 		1F459E776F59194B6FFEB7F4 /* Pods-YYAdditions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYAdditions.debug.xcconfig"; path = "Target Support Files/Pods-YYAdditions/Pods-YYAdditions.debug.xcconfig"; sourceTree = "<group>"; };
 		1FFFC80DEC8A9C5C9CD97DAE /* Pods-YYAdditions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYAdditions.release.xcconfig"; path = "Target Support Files/Pods-YYAdditions/Pods-YYAdditions.release.xcconfig"; sourceTree = "<group>"; };
 		DE25D592D2C458FD2A6AD82A /* Pods_YYAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,11 +144,8 @@
 		070F5EEB228A65B700B30F79 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				070F5F7B228AC9E200B30F79 /* PublicViews */,
-				070F5F41228AC3A900B30F79 /* Categorys */,
 				070F5EED228A65E400B30F79 /* PublicClass */,
 				070F5EEC228A65DD00B30F79 /* YYAdditions.h */,
-				070F5F7A228AC78400B30F79 /* Header.h */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -211,60 +153,10 @@
 		070F5EED228A65E400B30F79 /* PublicClass */ = {
 			isa = PBXGroup;
 			children = (
-				070F5F6F228AC5CD00B30F79 /* UIHelper.h */,
-				070F5F74228AC5CE00B30F79 /* UIHelper.m */,
-				070F5F72228AC5CD00B30F79 /* YYDeviceType.h */,
-				070F5F70228AC5CD00B30F79 /* YYDeviceType.m */,
-				070F5F71228AC5CD00B30F79 /* YYPalette.h */,
-				070F5F73228AC5CE00B30F79 /* YYPalette.m */,
 				070F5EEE228A662E00B30F79 /* YYHelper.h */,
 				070F5EEF228A662E00B30F79 /* YYHelper.m */,
 			);
 			path = PublicClass;
-			sourceTree = "<group>";
-		};
-		070F5F41228AC3A900B30F79 /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
-				070F5F51228AC58800B30F79 /* CALayer+Seperator.h */,
-				070F5F54228AC58900B30F79 /* CALayer+Seperator.m */,
-				070F5F5D228AC58A00B30F79 /* NSArray+Addition.h */,
-				070F5F44228AC58700B30F79 /* NSArray+Addition.m */,
-				070F5F47228AC58800B30F79 /* NSDate+FormatStr.h */,
-				070F5F4E228AC58800B30F79 /* NSDate+FormatStr.m */,
-				070F5F4D228AC58800B30F79 /* NSMutableAttributedString+Addition.h */,
-				070F5F56228AC58900B30F79 /* NSMutableAttributedString+Addition.m */,
-				070F5F53228AC58900B30F79 /* NSString+IsEmpty.h */,
-				070F5F5B228AC58900B30F79 /* NSString+IsEmpty.m */,
-				070F5F4F228AC58800B30F79 /* UIButton+Gradient.h */,
-				070F5F55228AC58900B30F79 /* UIButton+Gradient.m */,
-				070F5F45228AC58700B30F79 /* UIButton+ImageTitleSpacing.h */,
-				070F5F5F228AC58A00B30F79 /* UIButton+ImageTitleSpacing.m */,
-				070F5F43228AC58700B30F79 /* UIColor+ZYQColor.h */,
-				070F5F48228AC58800B30F79 /* UIColor+ZYQColor.m */,
-				070F5F4C228AC58800B30F79 /* UILabel+Suit.h */,
-				070F5F4B228AC58800B30F79 /* UILabel+Suit.m */,
-				070F5F57228AC58900B30F79 /* UITableViewCell+BottomLine.h */,
-				070F5F58228AC58900B30F79 /* UITableViewCell+BottomLine.m */,
-				070F5F46228AC58800B30F79 /* UIView+Addition.h */,
-				070F5F50228AC58800B30F79 /* UIView+Addition.m */,
-				070F5F59228AC58900B30F79 /* UIView+Badge.h */,
-				070F5F4A228AC58800B30F79 /* UIView+Badge.m */,
-			);
-			path = Categorys;
-			sourceTree = "<group>";
-		};
-		070F5F7B228AC9E200B30F79 /* PublicViews */ = {
-			isa = PBXGroup;
-			children = (
-				070F5F82228ACA5000B30F79 /* GradientAlphaView.h */,
-				070F5F83228ACA5000B30F79 /* GradientAlphaView.m */,
-				070F5F7C228ACA0400B30F79 /* CardBaseView.h */,
-				070F5F7D228ACA0400B30F79 /* CardBaseView.m */,
-				070F5F7E228ACA0400B30F79 /* PlaceholderTextView.h */,
-				070F5F7F228ACA0400B30F79 /* PlaceholderTextView.m */,
-			);
-			path = PublicViews;
 			sourceTree = "<group>";
 		};
 		0BB00A3655BD235727E7DC25 /* Pods */ = {
@@ -462,28 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070F5F66228AC58A00B30F79 /* UIView+Addition.m in Sources */,
-				070F5F6E228AC58A00B30F79 /* UIButton+ImageTitleSpacing.m in Sources */,
-				070F5F63228AC58A00B30F79 /* UIView+Badge.m in Sources */,
 				070F5EBE228A5BA200B30F79 /* ViewController.m in Sources */,
 				070F5EC9228A5BA300B30F79 /* main.m in Sources */,
-				070F5F80228ACA0400B30F79 /* CardBaseView.m in Sources */,
-				070F5F6A228AC58A00B30F79 /* UITableViewCell+BottomLine.m in Sources */,
-				070F5F61228AC58A00B30F79 /* NSArray+Addition.m in Sources */,
-				070F5F77228AC5CE00B30F79 /* UIHelper.m in Sources */,
 				070F5EBB228A5BA200B30F79 /* AppDelegate.m in Sources */,
-				070F5F65228AC58A00B30F79 /* NSDate+FormatStr.m in Sources */,
-				070F5F81228ACA0400B30F79 /* PlaceholderTextView.m in Sources */,
-				070F5F67228AC58A00B30F79 /* CALayer+Seperator.m in Sources */,
-				070F5F84228ACA5000B30F79 /* GradientAlphaView.m in Sources */,
-				070F5F69228AC58A00B30F79 /* NSMutableAttributedString+Addition.m in Sources */,
 				070F5EF0228A662E00B30F79 /* YYHelper.m in Sources */,
-				070F5F64228AC58A00B30F79 /* UILabel+Suit.m in Sources */,
-				070F5F6C228AC58A00B30F79 /* NSString+IsEmpty.m in Sources */,
-				070F5F76228AC5CE00B30F79 /* YYPalette.m in Sources */,
-				070F5F68228AC58A00B30F79 /* UIButton+Gradient.m in Sources */,
-				070F5F75228AC5CE00B30F79 /* YYDeviceType.m in Sources */,
-				070F5F62228AC58A00B30F79 /* UIColor+ZYQColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

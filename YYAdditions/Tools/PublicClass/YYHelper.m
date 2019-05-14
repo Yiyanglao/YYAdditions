@@ -6,8 +6,9 @@
 //  Copyright © 2019 eyoung. All rights reserved.
 //
 
+
+
 #import "YYHelper.h"
-#import "Header.h"
 #import <UIKit/UIKit.h>
 @implementation YYHelper
 
@@ -57,6 +58,9 @@
 +(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style{
     [YYHelper showWarningText:text style:style duration:2];
 }
+    
+#define Kwidth        [UIScreen mainScreen].bounds.size.width
+#define Kheight       [UIScreen mainScreen].bounds.size.height
 
 +(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)timelong{
     UIWindow *window = [UIApplication sharedApplication].keyWindow;

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Yiyanglao/YYAdditions.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '9.0'
 
-  ##头文件
+  ## 头文件
   spec.public_header_files = 'YYAdditions/Tools/*.h'
   spec.source_files = 'YYAdditions/Tools/*.h'
 
@@ -25,12 +25,12 @@ Pod::Spec.new do |spec|
   yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
   end
 
-  spec.subspec "Categorys" do |cs|
-  cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
-  end
+  #spec.subspec "Categorys" do |cs|
+  #cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+  #end
 
-  spec.subspec "PublicView" do |pv|
-  pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
-  end
+  #spec.subspec "PublicView" do |pv|
+  #pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
+  #end
 
 end
