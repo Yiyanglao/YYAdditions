@@ -18,19 +18,17 @@ Pod::Spec.new do |spec|
 
   ##头文件
   spec.public_header_files = 'YYAdditions/Tools/*.h'
-  spec.source_files        = 'YYAdditions/Tools/*.h'
+  spec.source_files = 'YYAdditions/Tools/*.h'
 
   ## 模块文件
   spec.subspec "YYHelper" do |yh|
   yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
   end
 
-  ## 模块文件
   spec.subspec "Categorys" do |cs|
   cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
   end
 
-  ## 模块文件
   spec.subspec "PublicView" do |pv|
   pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
   end
