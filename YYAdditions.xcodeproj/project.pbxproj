@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0708DA49228B0C65008ACE8F /* YYPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA43228B0C64008ACE8F /* YYPalette.m */; };
 		0708DA4A228B0C65008ACE8F /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA44228B0C64008ACE8F /* UIHelper.m */; };
 		0708DA4B228B0C65008ACE8F /* YYDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA47228B0C65008ACE8F /* YYDeviceType.m */; };
 		0708DA6C228B0C7A008ACE8F /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA52228B0C79008ACE8F /* UIView+Addition.m */; };
@@ -53,9 +52,7 @@
 
 /* Begin PBXFileReference section */
 		0708DA42228B0C3F008ACE8F /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		0708DA43228B0C64008ACE8F /* YYPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPalette.m; sourceTree = "<group>"; };
 		0708DA44228B0C64008ACE8F /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
-		0708DA45228B0C64008ACE8F /* YYPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPalette.h; sourceTree = "<group>"; };
 		0708DA46228B0C64008ACE8F /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
 		0708DA47228B0C65008ACE8F /* YYDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDeviceType.m; sourceTree = "<group>"; };
 		0708DA48228B0C65008ACE8F /* YYDeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDeviceType.h; sourceTree = "<group>"; };
@@ -249,8 +246,6 @@
 				0708DA44228B0C64008ACE8F /* UIHelper.m */,
 				0708DA48228B0C65008ACE8F /* YYDeviceType.h */,
 				0708DA47228B0C65008ACE8F /* YYDeviceType.m */,
-				0708DA45228B0C64008ACE8F /* YYPalette.h */,
-				0708DA43228B0C64008ACE8F /* YYPalette.m */,
 				070F5EEE228A662E00B30F79 /* YYHelper.h */,
 				070F5EEF228A662E00B30F79 /* YYHelper.m */,
 			);
@@ -444,7 +439,6 @@
 				0708DA76228B0C7A008ACE8F /* NSString+IsEmpty.m in Sources */,
 				0708DA6D228B0C7A008ACE8F /* UIView+Badge.m in Sources */,
 				0708DA6C228B0C7A008ACE8F /* UIView+Addition.m in Sources */,
-				0708DA49228B0C65008ACE8F /* YYPalette.m in Sources */,
 				0708DA75228B0C7A008ACE8F /* NSDate+FormatStr.m in Sources */,
 				0708DA7A228B0C7A008ACE8F /* GradientAlphaView.m in Sources */,
 				0708DA4B228B0C65008ACE8F /* YYDeviceType.m in Sources */,

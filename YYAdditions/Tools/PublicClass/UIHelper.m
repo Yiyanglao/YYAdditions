@@ -7,7 +7,6 @@
 //
 
 #import "UIHelper.h"
-#import "YYPalette.h"
 #import "UIColor+ZYQColor.h"
 
 @implementation UIHelper

@@ -7,8 +7,8 @@
 //
 
 #import "CALayer+Seperator.h"
+#import "UIColor+ZYQColor.h"
 #import "Header.h"
-#import "YYPalette.h"
 
 @implementation CALayer (Seperator)
 + (CALayer *)topSeperator: (CALayerSeperatorStyle)style {
@@ -31,20 +31,20 @@
     }
     CALayer* seperator = [[CALayer alloc] init];
     seperator.frame = rect;
-    seperator.backgroundColor = [Palette.wECF0F4 CGColor];
+    seperator.backgroundColor = [UIColor sy_colorWithString:@"#ECF0F4"].CGColor;
     return seperator;
 }
 + (CALayer *)seperatorWithFrame: (CGRect)frame  {
     
     CALayer* seperator = [[CALayer alloc] init];
     seperator.frame = frame;
-    seperator.backgroundColor = [Palette.wECF0F4 CGColor];
+    seperator.backgroundColor = [UIColor sy_colorWithString:@"#ECF0F4"].CGColor;
     return seperator;
 }
 + (CALayer *) verticalSeperatorOriginAt: (CGPoint)origin length: (CGFloat *)length {
     CALayer *seperator = [[CALayer alloc] init];
     seperator.frame = CGRectMake(origin.x, origin.y, 1, *length);
-    seperator.backgroundColor = [Palette.wECF0F4 CGColor];
+    seperator.backgroundColor = [UIColor sy_colorWithString:@"#ECF0F4"].CGColor;
     return seperator;
 }
 @end

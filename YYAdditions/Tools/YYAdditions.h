@@ -13,11 +13,9 @@
 #import "Header.h"
 #import "UIHelper.h"
 #import "YYHelper.h"
-#import "YYPalette.h"
 #import "YYDeviceType.h"
 
 //PublicViews
-#import "CardBaseView.h"
 #import "GradientAlphaView.h"
 #import "PlaceholderTextView.h"
 
@@ -32,7 +30,6 @@
 #import "NSString+IsEmpty.h"
 #import "UIButton+Gradient.h"
 #import "UIButton+ImageTitleSpacing.h"
-#import "UITableViewCell+BottomLine.h"
 #import "NSMutableAttributedString+Addition.h"
 
 #endif /* YYAdditions_h */
