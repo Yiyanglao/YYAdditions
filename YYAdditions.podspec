@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   ## 模块文件
   spec.subspec "YYHelper" do |yh|
-  yh.source_files = 'YYAdditions/Tools/PubliceClass/*.{h,m}'
+  yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
   end
 
 end
