@@ -28,7 +28,7 @@
 #else
 //生产模式
 #define DebugMode NO
-#define LogEnabel YES
+#define LogEnabel NO
 #endif
 
 //当前毫秒级时间字符串
@@ -42,11 +42,6 @@
 /// 提示正在开发中
 #define DEVELOPING [YYHelper showWarningText:@"此项功能正在开发中..." style:(showWariningMiddle)];
 #define YOUAREBUSY [YYHelper showWarningText:@"正在通话中..." style:showWariningMiddle];
-
-//高德地图
-#define GaoDeMapAppKey  @"de41461763c0acc07ccf2260936e8d46"
-//友盟推送
-#define UMengAppKey     @"5baf40e4f1f5567ebc00028b"
 
 
 #endif /* Header_h */
