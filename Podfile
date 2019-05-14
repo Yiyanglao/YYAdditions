@@ -4,6 +4,6 @@ inhibit_all_warnings!
 
 target 'YYAdditions' do
   
-pod 'SVProgressHUD', '~> 2.2.2'
+#pod 'SVProgressHUD', '~> 2.2.2'
 
 end

@@ -7,51 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SVProgressHUD.h>
-
+#import <UIKit/UIKit.h>
 
 @interface YYHelper : NSObject
 
 typedef NS_ENUM(NSInteger,ShowWarningStyle){
     showWariningBottom ,   //底部显示
     showWariningMiddle     //中间显示
-    
 };
-
-/**
- 显示HUD，可自定义显示样式
- */
-+(void)showHUD;
-
-/*
- 显示进度条
- @param value 数值
- @param status 底部文字
- */
-+ (void)showProgressValue: (float)value status: (NSString *)status;
-
-/**
- 隐藏HUD
- */
-+(void)dismisHUD;
-/// 主线程隐藏
-+ (void)dismissHUDInMainQueue;
-
-/**
- 网络请求成功显示样式
- 
- @param text 成功文字
- */
-+(void)showSuccessWithText:(NSString *)text;
-
-
-/**
- 网络请求失败显示样式
- 
- 
- */
-+(void)showErrorText;
-
 
 /**
  提示view

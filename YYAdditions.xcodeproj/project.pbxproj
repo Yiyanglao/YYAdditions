@@ -187,7 +187,6 @@
 				070F5EB2228A5BA200B30F79 /* Sources */,
 				070F5EB3228A5BA200B30F79 /* Frameworks */,
 				070F5EB4228A5BA200B30F79 /* Resources */,
-				022C13E5D7029248EB9AFAFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,28 +302,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		022C13E5D7029248EB9AFAFD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YYAdditions/Pods-YYAdditions-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYAdditions/Pods-YYAdditions-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E62A4E999A7121CC77ADEAD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
