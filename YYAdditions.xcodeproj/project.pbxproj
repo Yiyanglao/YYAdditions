@@ -14,7 +14,6 @@
 		0708DA6D228B0C7A008ACE8F /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA55228B0C7A008ACE8F /* UIView+Badge.m */; };
 		0708DA6E228B0C7A008ACE8F /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA57228B0C7A008ACE8F /* NSArray+Addition.m */; };
 		0708DA6F228B0C7A008ACE8F /* CALayer+Seperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA59228B0C7A008ACE8F /* CALayer+Seperator.m */; };
-		0708DA70228B0C7A008ACE8F /* UITableViewCell+BottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA5A228B0C7A008ACE8F /* UITableViewCell+BottomLine.m */; };
 		0708DA71228B0C7A008ACE8F /* NSMutableAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA5B228B0C7A008ACE8F /* NSMutableAttributedString+Addition.m */; };
 		0708DA72228B0C7A008ACE8F /* UILabel+Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA5C228B0C7A008ACE8F /* UILabel+Suit.m */; };
 		0708DA73228B0C7A008ACE8F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA5D228B0C7A008ACE8F /* UIButton+ImageTitleSpacing.m */; };
@@ -22,7 +21,6 @@
 		0708DA75228B0C7A008ACE8F /* NSDate+FormatStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA61228B0C7A008ACE8F /* NSDate+FormatStr.m */; };
 		0708DA76228B0C7A008ACE8F /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA62228B0C7A008ACE8F /* NSString+IsEmpty.m */; };
 		0708DA77228B0C7A008ACE8F /* UIColor+ZYQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA64228B0C7A008ACE8F /* UIColor+ZYQColor.m */; };
-		0708DA78228B0C7A008ACE8F /* CardBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA66228B0C7A008ACE8F /* CardBaseView.m */; };
 		0708DA79228B0C7A008ACE8F /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA67228B0C7A008ACE8F /* PlaceholderTextView.m */; };
 		0708DA7A228B0C7A008ACE8F /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708DA6B228B0C7A008ACE8F /* GradientAlphaView.m */; };
 		070F5EBB228A5BA200B30F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EBA228A5BA200B30F79 /* AppDelegate.m */; };
@@ -64,7 +62,6 @@
 		0708DA4D228B0C79008ACE8F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		0708DA4E228B0C79008ACE8F /* NSMutableAttributedString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Addition.h"; sourceTree = "<group>"; };
 		0708DA4F228B0C79008ACE8F /* UILabel+Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Suit.h"; sourceTree = "<group>"; };
-		0708DA50228B0C79008ACE8F /* UITableViewCell+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BottomLine.h"; sourceTree = "<group>"; };
 		0708DA51228B0C79008ACE8F /* CALayer+Seperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Seperator.h"; sourceTree = "<group>"; };
 		0708DA52228B0C79008ACE8F /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		0708DA53228B0C7A008ACE8F /* UIButton+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradient.h"; sourceTree = "<group>"; };
@@ -74,7 +71,6 @@
 		0708DA57228B0C7A008ACE8F /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
 		0708DA58228B0C7A008ACE8F /* UIColor+ZYQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYQColor.h"; sourceTree = "<group>"; };
 		0708DA59228B0C7A008ACE8F /* CALayer+Seperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Seperator.m"; sourceTree = "<group>"; };
-		0708DA5A228B0C7A008ACE8F /* UITableViewCell+BottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BottomLine.m"; sourceTree = "<group>"; };
 		0708DA5B228B0C7A008ACE8F /* NSMutableAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Addition.m"; sourceTree = "<group>"; };
 		0708DA5C228B0C7A008ACE8F /* UILabel+Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Suit.m"; sourceTree = "<group>"; };
 		0708DA5D228B0C7A008ACE8F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
@@ -85,10 +81,8 @@
 		0708DA62228B0C7A008ACE8F /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
 		0708DA63228B0C7A008ACE8F /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
 		0708DA64228B0C7A008ACE8F /* UIColor+ZYQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQColor.m"; sourceTree = "<group>"; };
-		0708DA66228B0C7A008ACE8F /* CardBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardBaseView.m; sourceTree = "<group>"; };
 		0708DA67228B0C7A008ACE8F /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
 		0708DA68228B0C7A008ACE8F /* GradientAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
-		0708DA69228B0C7A008ACE8F /* CardBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardBaseView.h; sourceTree = "<group>"; };
 		0708DA6A228B0C7A008ACE8F /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
 		0708DA6B228B0C7A008ACE8F /* GradientAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
 		070F5EB6228A5BA200B30F79 /* YYAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,8 +155,6 @@
 				0708DA64228B0C7A008ACE8F /* UIColor+ZYQColor.m */,
 				0708DA4F228B0C79008ACE8F /* UILabel+Suit.h */,
 				0708DA5C228B0C7A008ACE8F /* UILabel+Suit.m */,
-				0708DA50228B0C79008ACE8F /* UITableViewCell+BottomLine.h */,
-				0708DA5A228B0C7A008ACE8F /* UITableViewCell+BottomLine.m */,
 				0708DA5F228B0C7A008ACE8F /* UIView+Addition.h */,
 				0708DA52228B0C79008ACE8F /* UIView+Addition.m */,
 				0708DA63228B0C7A008ACE8F /* UIView+Badge.h */,
@@ -174,12 +166,10 @@
 		0708DA65228B0C7A008ACE8F /* PublicViews */ = {
 			isa = PBXGroup;
 			children = (
-				0708DA66228B0C7A008ACE8F /* CardBaseView.m */,
-				0708DA67228B0C7A008ACE8F /* PlaceholderTextView.m */,
 				0708DA68228B0C7A008ACE8F /* GradientAlphaView.h */,
-				0708DA69228B0C7A008ACE8F /* CardBaseView.h */,
-				0708DA6A228B0C7A008ACE8F /* PlaceholderTextView.h */,
 				0708DA6B228B0C7A008ACE8F /* GradientAlphaView.m */,
+				0708DA6A228B0C7A008ACE8F /* PlaceholderTextView.h */,
+				0708DA67228B0C7A008ACE8F /* PlaceholderTextView.m */,
 			);
 			path = PublicViews;
 			sourceTree = "<group>";
@@ -440,7 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				070F5EBE228A5BA200B30F79 /* ViewController.m in Sources */,
-				0708DA78228B0C7A008ACE8F /* CardBaseView.m in Sources */,
 				0708DA74228B0C7A008ACE8F /* UIButton+Gradient.m in Sources */,
 				0708DA72228B0C7A008ACE8F /* UILabel+Suit.m in Sources */,
 				0708DA6F228B0C7A008ACE8F /* CALayer+Seperator.m in Sources */,
@@ -448,7 +437,6 @@
 				070F5EC9228A5BA300B30F79 /* main.m in Sources */,
 				070F5EBB228A5BA200B30F79 /* AppDelegate.m in Sources */,
 				0708DA79228B0C7A008ACE8F /* PlaceholderTextView.m in Sources */,
-				0708DA70228B0C7A008ACE8F /* UITableViewCell+BottomLine.m in Sources */,
 				070F5EF0228A662E00B30F79 /* YYHelper.m in Sources */,
 				0708DA77228B0C7A008ACE8F /* UIColor+ZYQColor.m in Sources */,
 				0708DA73228B0C7A008ACE8F /* UIButton+ImageTitleSpacing.m in Sources */,
