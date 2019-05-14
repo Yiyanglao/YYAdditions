@@ -10,29 +10,10 @@
 #define YYAdditions_h
 
 //PublicClass
-#import "Header.h"
-#import "UIHelper.h"
 #import "YYHelper.h"
-#import "YYPalette.h"
-#import "YYDeviceType.h"
 
 //PublicViews
-#import "CardBaseView.h"
-#import "GradientAlphaView.h"
-#import "PlaceholderTextView.h"
 
 //Categorys
-#import "UIView+Addition.h"
-#import "UIView+Badge.h"
-#import "UILabel+Suit.h"
-#import "UIColor+ZYQColor.h"
-#import "CALayer+Seperator.h"
-#import "NSArray+Addition.h"
-#import "NSDate+FormatStr.h"
-#import "NSString+IsEmpty.h"
-#import "UIButton+Gradient.h"
-#import "UIButton+ImageTitleSpacing.h"
-#import "UITableViewCell+BottomLine.h"
-#import "NSMutableAttributedString+Addition.h"
 
 #endif /* YYAdditions_h */

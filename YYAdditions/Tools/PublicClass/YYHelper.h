@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVProgressHUD.h"
+#import <SVProgressHUD.h>
 
 
 @interface YYHelper : NSObject
