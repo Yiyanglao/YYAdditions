@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.10"
+  spec.version      = "1.0.11"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC
@@ -29,8 +29,8 @@ Pod::Spec.new do |spec|
   pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
   end
 
-  #spec.subspec "Categorys" do |cs|
-  #cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
-  #end
+  spec.subspec "Categorys" do |cs|
+  cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+  end
 
 end
