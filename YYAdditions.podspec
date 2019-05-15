@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.13"
+  spec.version      = "1.0.14"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC
@@ -21,16 +21,16 @@ Pod::Spec.new do |spec|
   spec.source_files = 'YYAdditions/Tools/*.h'
 
   ## 模块文件
-  spec.subspec "YYHelper" do |yh|
-	yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
+  spec.subspec "YYClass" do |yc|
+	yc.source_files = 'YYAdditions/Tools/**/*.{h,m}'
   end
 
-  spec.subspec "PublicViews" do |pv|
-	pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
-  end
+  #spec.subspec "PublicViews" do |pv|
+	#pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
+  #end
 
-  spec.subspec "Categorys" do |cs|
-	cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
-  end
+  #spec.subspec "Categorys" do |cs|
+	#cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+  #end
 
 end

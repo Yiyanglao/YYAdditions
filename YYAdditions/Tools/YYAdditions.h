@@ -26,6 +26,7 @@
 #import "UIColor+ZYQColor.h"
 #import "NSArray+Addition.h"
 #import "NSString+IsEmpty.h"
+#import "UIButton+Gradient.h"
 #import "UIButton+ImageTitleSpacing.h"
 #import "UITableViewCell+BottomLine.h"
 #import "NSMutableAttributedString+Addition.h"
