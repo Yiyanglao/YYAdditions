@@ -7,13 +7,12 @@
 //
 
 #import "UIButton+Gradient.h"
-#import "GradientAlphaView.h"
 
 @implementation UIButton (Gradient)
 
 + (instancetype)gradientButtonWithFram:(CGRect)fram{
     UIColor * leftColor = [UIColor colorWithRed:66 green:165 blue:246 alpha:1];         //#42a5f6
-    UIColor * rightColor = [UIColor colorWithRed:47 green:87 blue:245 alpha:1];        //#2f57f5
+    UIColor * rightColor = [UIColor colorWithRed:47 green:87 blue:245 alpha:1];         //#2f57f5
     return [UIButton gradientButtonWithFram:fram leftColor:leftColor rightColor:rightColor];
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GradientAlphaView.h"
 
 @interface UIButton (Gradient)
 
