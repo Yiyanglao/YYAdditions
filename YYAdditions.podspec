@@ -25,12 +25,12 @@ Pod::Spec.new do |spec|
   yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
   end
 
+  spec.subspec "PublicViews" do |pv|
+  pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
+  end
+
   #spec.subspec "Categorys" do |cs|
   #cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
   #end
-
-  spec.subspec "PublicView" do |pv|
-  pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
-  end
 
 end
