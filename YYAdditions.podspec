@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.14"
+  spec.version      = "1.0.15"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC
@@ -14,6 +14,8 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Yiyang" => "yiyang.developer@longwill.com.cn" }
   spec.source       = { :git => "https://github.com/Yiyanglao/YYAdditions.git", :tag => "#{spec.version}" }
+
+  spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = '9.0'
 
   ## 头文件
@@ -21,16 +23,13 @@ Pod::Spec.new do |spec|
   spec.source_files = 'YYAdditions/Tools/*.h'
 
   ## 模块文件
+  ## 注意：模块内部文件不要引用模块外部的.h文件，否则会报fatal error: file not found，验证不通过
   spec.subspec "YYClass" do |yc|
 	yc.source_files = 'YYAdditions/Tools/**/*.{h,m}'
   end
 
-  #spec.subspec "PublicViews" do |pv|
-	#pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
-  #end
-
-  #spec.subspec "Categorys" do |cs|
-	#cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+  #spec.subspec "NewModule" do |nm|
+	#nm.source_files = 'YYAdditions/NewModule/**/*.{h,m}'
   #end
 
 end
