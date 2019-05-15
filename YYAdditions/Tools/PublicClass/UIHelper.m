@@ -77,7 +77,7 @@
     textField.layer.cornerRadius = radius;
     textField.font = font;
     textField.textColor = color;
-    textField.attributedPlaceholder = [[NSMutableAttributedString alloc] initWithString:placeholder attributes:@{NSForegroundColorAttributeName:UIColor.whiteColor,NSFontAttributeName:YYFont(12)}];
+    textField.attributedPlaceholder = [[NSMutableAttributedString alloc] initWithString:placeholder attributes:@{NSForegroundColorAttributeName:UIColor.whiteColor,NSFontAttributeName:[UIFont systemFontOfSize:12]}];
     
     return textField;
 }
@@ -94,32 +94,6 @@
     seperator.backgroundColor = color.CGColor;
     return seperator;
 }
-//+ (CALayer *)getSeperatorWithY: (CGFloat)y
-//                             style: (CALayerSeperatorStyle)style
-//                             color: (UIColor*)color
-//{
-//    CALayer* seperator = [[CALayer alloc] init];
-//    CGRect rect = CGRectZero;
-//    switch (style) {
-//        case 0:
-//            rect = CGRectMake(0, y, Kwidth, 1);
-//            break;
-//        case 1:
-//            rect = CGRectMake(fl 12, y, Kwidth-fl 12, 1);
-//            break;
-//        case 2:
-//            rect = CGRectMake(0, y, Kwidth-fl 24, 1);
-//            break;
-//        case 3:
-//            rect = CGRectMake(fl 12, y, Kwidth-fl 24, 1);
-//            break;
-//        default:
-//            break;
-//    }
-//    seperator.frame = rect;
-//    seperator.backgroundColor = color.CGColor;
-//    return seperator;
-//}
 
 //获取字符串Size
 + (CGSize)getSizeForString:(NSString *)text withBoundingSize:(CGSize)boundsize andFontSize:(CGFloat)fontsize{

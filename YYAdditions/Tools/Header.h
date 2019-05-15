@@ -18,8 +18,12 @@
 #define SafeAreaBottomHeight ((Kheight == 812.0 || Kheight == 896.0) ? 34.0 : 0.0)
 #define KScale Kwidth/375
 
-#define fl KScale*
 #define IsEmptyString(...) (__VA_ARGS__ == nil || [__VA_ARGS__ isEmpty])
+
+//UIFont
+#define YYFont(...)      [UIFont systemFontOfSize:KScale* __VA_ARGS__]
+#define YYFontMedi(...)  [UIFont systemFontOfSize:KScale* __VA_ARGS__ weight:UIFontWeightMedium]
+#define YYFontBold(...)  [UIFont boldSystemFontOfSize:KScale* __VA_ARGS__]
 
 #ifdef DEBUG
 //开发模式

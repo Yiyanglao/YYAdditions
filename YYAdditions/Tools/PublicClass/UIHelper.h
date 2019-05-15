@@ -7,11 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Header.h"
-/// fl 之后的UIFont
-#define YYFont(...)      [UIFont systemFontOfSize: fl __VA_ARGS__]
-#define YYFontMedi(...)  [UIFont systemFontOfSize: fl __VA_ARGS__ weight:UIFontWeightMedium]
-#define YYFontBold(...)  [UIFont boldSystemFontOfSize: fl __VA_ARGS__]
 
 typedef NS_ENUM(NSUInteger, CALayerSeperatorStyle) {
     CALayerSeperatorStyleAll = 0, // 与屏幕一样宽
