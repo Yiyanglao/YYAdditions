@@ -22,15 +22,17 @@ Pod::Spec.new do |spec|
 
   ## 模块文件
   spec.subspec "YYHelper" do |yh|
-  yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
+	yh.source_files = 'YYAdditions/Tools/PublicClass/*.{h,m}'
   end
 
   spec.subspec "PublicViews" do |pv|
-  pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
+	pv.source_files = 'YYAdditions/Tools/PublicViews/*.{h,m}'
+	pv.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "YYAdditions/Tools/PublicViews"}
   end
 
   spec.subspec "Categorys" do |cs|
-  cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+	cs.source_files = 'YYAdditions/Tools/Categorys/*.{h,m}'
+	cs.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "YYAdditions/Tools/Categorys"}
   end
 
 end
