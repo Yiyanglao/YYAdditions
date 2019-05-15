@@ -16,20 +16,20 @@
 #import "YYDeviceType.h"
 
 //PublicViews
-#import "GradientAlphaView.h"
-#import "PlaceholderTextView.h"
+//#import "GradientAlphaView.h"
+//#import "PlaceholderTextView.h"
 
 //Categorys
-#import "UIView+Addition.h"
-#import "UIView+Badge.h"
-#import "UILabel+Suit.h"
-#import "UIColor+ZYQColor.h"
-#import "CALayer+Seperator.h"
-#import "NSArray+Addition.h"
-#import "NSDate+FormatStr.h"
-#import "NSString+IsEmpty.h"
-#import "UIButton+Gradient.h"
-#import "UIButton+ImageTitleSpacing.h"
-#import "NSMutableAttributedString+Addition.h"
+//#import "UIView+Addition.h"
+//#import "UIView+Badge.h"
+//#import "UILabel+Suit.h"
+//#import "UIColor+ZYQColor.h"
+//#import "CALayer+Seperator.h"
+//#import "NSArray+Addition.h"
+//#import "NSDate+FormatStr.h"
+//#import "NSString+IsEmpty.h"
+//#import "UIButton+Gradient.h"
+//#import "UIButton+ImageTitleSpacing.h"
+//#import "NSMutableAttributedString+Addition.h"
 
 #endif /* YYAdditions_h */

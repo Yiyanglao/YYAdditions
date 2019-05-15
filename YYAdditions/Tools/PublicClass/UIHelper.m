@@ -7,7 +7,6 @@
 //
 
 #import "UIHelper.h"
-#import "UIColor+ZYQColor.h"
 
 @implementation UIHelper
 
@@ -88,7 +87,7 @@
                              color: (UIColor*)color
 {
     if (!color) {
-        color = [UIColor sy_colorWithString:@"#E8EAED"];
+        color = [UIColor colorWithRed:232 green:234 blue:237 alpha:1];   //#E8EAED
     }
     CALayer* seperator = [[CALayer alloc] init];
     seperator.frame = frame;
