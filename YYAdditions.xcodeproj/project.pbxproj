@@ -20,7 +20,6 @@
 		070CF77E228BBF47002A6E88 /* NSMutableAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF76F228BBF47002A6E88 /* NSMutableAttributedString+Addition.m */; };
 		070CF77F228BBF47002A6E88 /* UILabel+Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF770228BBF47002A6E88 /* UILabel+Suit.m */; };
 		070CF780228BBF47002A6E88 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF771228BBF47002A6E88 /* UIButton+ImageTitleSpacing.m */; };
-		070CF781228BBF47002A6E88 /* UIButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF772228BBF47002A6E88 /* UIButton+Gradient.m */; };
 		070CF783228BBF47002A6E88 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF776228BBF47002A6E88 /* NSString+IsEmpty.m */; };
 		070CF784228BBF47002A6E88 /* UIColor+ZYQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CF778228BBF47002A6E88 /* UIColor+ZYQColor.m */; };
 		070F5EBB228A5BA200B30F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EBA228A5BA200B30F79 /* AppDelegate.m */; };
@@ -70,7 +69,6 @@
 		070CF763228BBF47002A6E88 /* UILabel+Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Suit.h"; sourceTree = "<group>"; };
 		070CF764228BBF47002A6E88 /* UITableViewCell+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BottomLine.h"; sourceTree = "<group>"; };
 		070CF766228BBF47002A6E88 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
-		070CF767228BBF47002A6E88 /* UIButton+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradient.h"; sourceTree = "<group>"; };
 		070CF768228BBF47002A6E88 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
 		070CF769228BBF47002A6E88 /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
 		070CF76B228BBF47002A6E88 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 		070CF76F228BBF47002A6E88 /* NSMutableAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Addition.m"; sourceTree = "<group>"; };
 		070CF770228BBF47002A6E88 /* UILabel+Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Suit.m"; sourceTree = "<group>"; };
 		070CF771228BBF47002A6E88 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		070CF772228BBF47002A6E88 /* UIButton+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Gradient.m"; sourceTree = "<group>"; };
 		070CF773228BBF47002A6E88 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
 		070CF774228BBF47002A6E88 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
 		070CF776228BBF47002A6E88 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
@@ -178,8 +175,6 @@
 				070CF76F228BBF47002A6E88 /* NSMutableAttributedString+Addition.m */,
 				070CF768228BBF47002A6E88 /* NSString+IsEmpty.h */,
 				070CF776228BBF47002A6E88 /* NSString+IsEmpty.m */,
-				070CF767228BBF47002A6E88 /* UIButton+Gradient.h */,
-				070CF772228BBF47002A6E88 /* UIButton+Gradient.m */,
 				070CF761228BBF47002A6E88 /* UIButton+ImageTitleSpacing.h */,
 				070CF771228BBF47002A6E88 /* UIButton+ImageTitleSpacing.m */,
 				070CF76C228BBF47002A6E88 /* UIColor+ZYQColor.h */,
@@ -432,7 +427,6 @@
 				070CF75E228BB50D002A6E88 /* PlaceholderTextView.m in Sources */,
 				070CF77F228BBF47002A6E88 /* UILabel+Suit.m in Sources */,
 				070F5EC9228A5BA300B30F79 /* main.m in Sources */,
-				070CF781228BBF47002A6E88 /* UIButton+Gradient.m in Sources */,
 				070CF780228BBF47002A6E88 /* UIButton+ImageTitleSpacing.m in Sources */,
 				070CF740228B9FCC002A6E88 /* UIHelper.m in Sources */,
 				070CF779228BBF47002A6E88 /* UIView+Addition.m in Sources */,
