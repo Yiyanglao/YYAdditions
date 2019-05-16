@@ -127,6 +127,18 @@ typedef NS_ENUM(NSUInteger, CALayerSeperatorStyle) {
  */
 + (NSString *)NNString:(NSString *)string;
 
-+ (void)loadTestImg;
+/*
+ 获取Pod资源库中的图片
+ 
+ @param Class      获取bundleURL的类
+ @param string     bundle名
+ @param string     图片名
+ @param string     图片类型
+ @return Image     获取到的图片
+ */
++ (UIImage *)fetchImageWithClass:(Class)clss
+                      bundleName:(NSString *)bundlename
+                       imageName:(NSString *)imgname
+                       imageType:(NSString *)type;
 
 @end

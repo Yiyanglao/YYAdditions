@@ -205,14 +205,18 @@
 }
 
 + (void)loadTestImg{
-    NSBundle *bundle = [NSBundle bundleForClass:[UIHelper class]];
-    NSURL *url = [bundle URLForResource:@"YYAddImgs" withExtension:@"bundle"];
+    
+}
+
++ (UIImage *)fetchImageWithClass:(Class)clss
+                      bundleName:(NSString *)bundlename
+                       imageName:(NSString *)imgname
+                       imageType:(NSString *)type{
+    NSBundle *bundle = [NSBundle bundleForClass:clss];
+    NSURL *url = [bundle URLForResource:bundlename withExtension:@"bundle"];
     NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-    UIImage * infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"home_icon1" ofType:@"png"]];
-    UIViewController * rootVC = [UIApplication sharedApplication].keyWindow.rootViewController;
-    UIImageView * ineView = [[UIImageView alloc] initWithImage:infoImage];
-    ineView.center = CGPointMake(300, 500);
-    [rootVC.view addSubview:ineView];
+    UIImage * infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:imgname ofType:type]];
+    return infoImage;
 }
 
 @end
