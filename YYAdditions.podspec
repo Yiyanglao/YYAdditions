@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.17"
+  spec.version      = "1.0.18"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC

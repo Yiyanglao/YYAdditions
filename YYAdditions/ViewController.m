@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view.
     
     [YYHelper getToken];
+    [UIHelper getNowTimestamp];
 }
 
 
