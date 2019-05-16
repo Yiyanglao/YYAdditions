@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.23"
+  spec.version      = "1.0.24"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC
@@ -20,6 +20,7 @@ Pod::Spec.new do |spec|
 
   ## 头文件
   spec.source_files = 'YYAdditions/Tools/*.{h,m}'
+  spec.resource = 'YYAdditions/ImageSource/'
   spec.dependency "SVProgressHUD", "~> 2.2.2"
 
 end

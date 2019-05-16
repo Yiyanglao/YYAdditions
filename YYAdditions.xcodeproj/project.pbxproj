@@ -30,6 +30,7 @@
 		070F5EC9228A5BA300B30F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EC8228A5BA300B30F79 /* main.m */; };
 		070F5ED3228A5BA400B30F79 /* YYAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5ED2228A5BA400B30F79 /* YYAdditionsTests.m */; };
 		070F5EDE228A5BA400B30F79 /* YYAdditionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F5EDD228A5BA400B30F79 /* YYAdditionsUITests.m */; };
+		07AABFBF228D65D40092B152 /* YYAddImgs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07AABFBE228D65D40092B152 /* YYAddImgs.bundle */; };
 		4BB2AB380A077C320D37D9B5 /* Pods_YYAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25D592D2C458FD2A6AD82A /* Pods_YYAdditions.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,13 @@
 		070F5ED9228A5BA400B30F79 /* YYAdditionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYAdditionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		070F5EDD228A5BA400B30F79 /* YYAdditionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAdditionsUITests.m; sourceTree = "<group>"; };
 		070F5EDF228A5BA400B30F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AABF94228D5E6B0092B152 /* home_icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon0.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon0.png; sourceTree = "<group>"; };
+		07AABF95228D5E6B0092B152 /* home_icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon3.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon3.png; sourceTree = "<group>"; };
+		07AABF96228D5E6B0092B152 /* home_icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon5.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon5.png; sourceTree = "<group>"; };
+		07AABF97228D5E6B0092B152 /* home_icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon4.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon4.png; sourceTree = "<group>"; };
+		07AABF98228D5E6B0092B152 /* home_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon1.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon1.png; sourceTree = "<group>"; };
+		07AABF99228D5E6B0092B152 /* home_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon2.png; path = ../../H5Projects/HTMLWebDemo/homepage/img/home_icon2.png; sourceTree = "<group>"; };
+		07AABFBE228D65D40092B152 /* YYAddImgs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYAddImgs.bundle; sourceTree = "<group>"; };
 		1F459E776F59194B6FFEB7F4 /* Pods-YYAdditions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYAdditions.debug.xcconfig"; path = "Target Support Files/Pods-YYAdditions/Pods-YYAdditions.debug.xcconfig"; sourceTree = "<group>"; };
 		1FFFC80DEC8A9C5C9CD97DAE /* Pods-YYAdditions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYAdditions.release.xcconfig"; path = "Target Support Files/Pods-YYAdditions/Pods-YYAdditions.release.xcconfig"; sourceTree = "<group>"; };
 		DE25D592D2C458FD2A6AD82A /* Pods_YYAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +205,7 @@
 		070F5EB8228A5BA200B30F79 /* YYAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				07AABFBD228D5F1D0092B152 /* ImageSource */,
 				070CF716228B9FCB002A6E88 /* Tools */,
 				070F5EB9228A5BA200B30F79 /* AppDelegate.h */,
 				070F5EBA228A5BA200B30F79 /* AppDelegate.m */,
@@ -228,6 +237,14 @@
 			path = YYAdditionsUITests;
 			sourceTree = "<group>";
 		};
+		07AABFBD228D5F1D0092B152 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				07AABFBE228D65D40092B152 /* YYAddImgs.bundle */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
 		0BB00A3655BD235727E7DC25 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +257,12 @@
 		32914AF5056B39B2AB1688C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07AABF94228D5E6B0092B152 /* home_icon0.png */,
+				07AABF98228D5E6B0092B152 /* home_icon1.png */,
+				07AABF99228D5E6B0092B152 /* home_icon2.png */,
+				07AABF95228D5E6B0092B152 /* home_icon3.png */,
+				07AABF97228D5E6B0092B152 /* home_icon4.png */,
+				07AABF96228D5E6B0092B152 /* home_icon5.png */,
 				DE25D592D2C458FD2A6AD82A /* Pods_YYAdditions.framework */,
 			);
 			name = Frameworks;
@@ -351,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				070F5EC6228A5BA300B30F79 /* LaunchScreen.storyboard in Resources */,
+				07AABFBF228D65D40092B152 /* YYAddImgs.bundle in Resources */,
 				070F5EC3228A5BA300B30F79 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,8 +25,6 @@
     return label;
 }
 
-
-
 + (UIButton *)getButtonWith: (CGRect)frame
                cornerRadius: (CGFloat)radius
                       title: (NSString *)title
@@ -204,6 +202,17 @@
         return @"";
     }
     return string;
+}
+
++ (void)loadTestImg{
+    NSBundle *bundle = [NSBundle bundleForClass:[UIHelper class]];
+    NSURL *url = [bundle URLForResource:@"YYAddImgs" withExtension:@"bundle"];
+    NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+    UIImage * infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"home_icon1" ofType:@"png"]];
+    UIViewController * rootVC = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIImageView * ineView = [[UIImageView alloc] initWithImage:infoImage];
+    ineView.center = CGPointMake(300, 500);
+    [rootVC.view addSubview:ineView];
 }
 
 @end

@@ -126,4 +126,7 @@ typedef NS_ENUM(NSUInteger, CALayerSeperatorStyle) {
  @return 转换后的非nil，非null，非“null”字符串
  */
 + (NSString *)NNString:(NSString *)string;
+
++ (void)loadTestImg;
+
 @end

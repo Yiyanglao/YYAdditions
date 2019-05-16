@@ -33,8 +33,8 @@
 
 +(void)showSuccessWithText:(NSString *)text{
     //设置显示时间
-    [SVProgressHUD setMinimumDismissTimeInterval:1.2];
     [SVProgressHUD showSuccessWithStatus:text];
+    [SVProgressHUD setMinimumDismissTimeInterval:1.2];
 }
 
 +(void)showErrorText{
