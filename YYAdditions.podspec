@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
 
   ## 头文件
-  #spec.public_header_files = 'YYAdditions/Tools/*.h'
+  spec.public_header_files = 'YYAdditions/Tools/*.h'
   spec.source_files = 'YYAdditions/Tools/**/*.{h,m}'
 
   ## 模块文件
