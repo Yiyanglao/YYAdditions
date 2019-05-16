@@ -605,6 +605,7 @@
 			baseConfigurationReference = 1F459E776F59194B6FFEB7F4 /* Pods-YYAdditions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z347D7RSH3;
 				INFOPLIST_FILE = YYAdditions/Info.plist;
@@ -624,6 +625,7 @@
 			baseConfigurationReference = 1FFFC80DEC8A9C5C9CD97DAE /* Pods-YYAdditions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z347D7RSH3;
 				INFOPLIST_FILE = YYAdditions/Info.plist;
