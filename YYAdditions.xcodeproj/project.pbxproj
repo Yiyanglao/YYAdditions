@@ -134,44 +134,6 @@
 		070CF716228B9FCB002A6E88 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				070CF760228BBF47002A6E88 /* Categorys */,
-				070CF717228B9FCB002A6E88 /* Header.h */,
-				070CF718228B9FCB002A6E88 /* YYAdditions.h */,
-				070CF71E228B9FCB002A6E88 /* PublicClass */,
-				070CF756228BB50D002A6E88 /* PublicViews */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		070CF71E228B9FCB002A6E88 /* PublicClass */ = {
-			isa = PBXGroup;
-			children = (
-				070CF721228B9FCB002A6E88 /* UIHelper.h */,
-				070CF722228B9FCB002A6E88 /* UIHelper.m */,
-				070CF723228B9FCB002A6E88 /* YYDeviceType.h */,
-				070CF720228B9FCB002A6E88 /* YYDeviceType.m */,
-				070CF724228B9FCB002A6E88 /* YYHelper.h */,
-				070CF71F228B9FCB002A6E88 /* YYHelper.m */,
-			);
-			path = PublicClass;
-			sourceTree = "<group>";
-		};
-		070CF756228BB50D002A6E88 /* PublicViews */ = {
-			isa = PBXGroup;
-			children = (
-				070CF75A228BB50D002A6E88 /* CardBaseView.h */,
-				070CF757228BB50D002A6E88 /* CardBaseView.m */,
-				070CF759228BB50D002A6E88 /* GradientAlphaView.h */,
-				070CF75C228BB50D002A6E88 /* GradientAlphaView.m */,
-				070CF75B228BB50D002A6E88 /* PlaceholderTextView.h */,
-				070CF758228BB50D002A6E88 /* PlaceholderTextView.m */,
-			);
-			path = PublicViews;
-			sourceTree = "<group>";
-		};
-		070CF760228BBF47002A6E88 /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
 				070CF774228BBF47002A6E88 /* NSArray+Addition.h */,
 				070CF76B228BBF47002A6E88 /* NSArray+Addition.m */,
 				070CF762228BBF47002A6E88 /* NSMutableAttributedString+Addition.h */,
@@ -192,8 +154,22 @@
 				070CF769228BBF47002A6E88 /* UIView+Badge.m */,
 				070CF785228BEB2B002A6E88 /* UIButton+Gradient.h */,
 				070CF786228BEB2C002A6E88 /* UIButton+Gradient.m */,
+				070CF717228B9FCB002A6E88 /* Header.h */,
+				070CF718228B9FCB002A6E88 /* YYAdditions.h */,
+				070CF721228B9FCB002A6E88 /* UIHelper.h */,
+				070CF722228B9FCB002A6E88 /* UIHelper.m */,
+				070CF723228B9FCB002A6E88 /* YYDeviceType.h */,
+				070CF720228B9FCB002A6E88 /* YYDeviceType.m */,
+				070CF724228B9FCB002A6E88 /* YYHelper.h */,
+				070CF71F228B9FCB002A6E88 /* YYHelper.m */,
+				070CF75A228BB50D002A6E88 /* CardBaseView.h */,
+				070CF757228BB50D002A6E88 /* CardBaseView.m */,
+				070CF759228BB50D002A6E88 /* GradientAlphaView.h */,
+				070CF75C228BB50D002A6E88 /* GradientAlphaView.m */,
+				070CF75B228BB50D002A6E88 /* PlaceholderTextView.h */,
+				070CF758228BB50D002A6E88 /* PlaceholderTextView.m */,
 			);
-			path = Categorys;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		070F5EAD228A5BA100B30F79 = {
