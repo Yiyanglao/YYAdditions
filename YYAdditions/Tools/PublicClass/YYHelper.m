@@ -6,15 +6,59 @@
 //  Copyright © 2019 eyoung. All rights reserved.
 //
 
+#import "YYHelper.h"
+#import <UIKit/UIKit.h>
+
 #define Kwidth        [UIScreen mainScreen].bounds.size.width
 #define Kheight       [UIScreen mainScreen].bounds.size.height
 
-#import "YYHelper.h"
-
 @implementation YYHelper
 
++(void)showHUD{
+    [SVProgressHUD show];
+    //设置背景颜色
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeClear];
+    
+    //下边两个方法绑定使用
+    // HUD的背景颜色和app的背景颜色一致
+    //    [SVProgressHUD setBackgroundLayerColor:[[UIColor sy_backgroundColor] colorWithAlphaComponent:0.4]];
+    //    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeCustom];
+    //
+    //    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleCustom];
+    //    [SVProgressHUD setBackgroundColor:[UIColor clearColor]];
+    //    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
+    //
+    
+}
+
++(void)showSuccessWithText:(NSString *)text{
+    //设置显示时间
+    [SVProgressHUD setMinimumDismissTimeInterval:1.2];
+    [SVProgressHUD showSuccessWithStatus:text];
+}
+
++(void)showErrorText{
+    //    //设置显示时间
+    //    [SVProgressHUD setMinimumDismissTimeInterval:1.5];
+    //    [SVProgressHUD showErrorWithStatus:text];
+    
+    //移除显示的HUD
+    [SVProgressHUD dismiss];
+    [self showWarningText:@"解析数据错误,请检查网络" style:showWariningMiddle];
+}
+
++(void)dismisHUD{
+    [SVProgressHUD dismiss];
+}
+
++ (void)dismissHUDInMainQueue {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [SVProgressHUD dismiss];
+    });
+}
+
 +(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style{
-    [YYHelper showWarningText:text style:style duration:2.0];
+    [YYHelper showWarningText:text style:style duration:2];
 }
 
 +(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)timelong{
@@ -175,6 +219,11 @@
     return working;
 }
 
++ (void)showProgressValue: (float)value status: (NSString *)status {
+    [SVProgressHUD showProgress:value status:status];
+}
+
+
 //
 +(void)showWarningInMainText:(NSString *)text style:(ShowWarningStyle)style{
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -182,4 +231,5 @@
     });
     
 }
+
 @end

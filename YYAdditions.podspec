@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YYAdditions"
-  spec.version      = "1.0.15"
+  spec.version      = "1.0.16"
   spec.summary      = "A short description of YYAdditions."
 
   spec.description  = <<-DESC
@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "Yiyang" => "yiyang.developer@longwill.com.cn" }
   spec.source       = { :git => "https://github.com/Yiyanglao/YYAdditions.git", :tag => "#{spec.version}" }
 
-  spec.platform     = :ios, "9.0"
-  spec.ios.deployment_target = '9.0'
+  spec.platform     = :ios, "8.0"
+  spec.ios.deployment_target = '8.0'
 
   ## 头文件
   spec.public_header_files = 'YYAdditions/Tools/*.h'
@@ -31,5 +31,7 @@ Pod::Spec.new do |spec|
   #spec.subspec "NewModule" do |nm|
 	#nm.source_files = 'YYAdditions/NewModule/**/*.{h,m}'
   #end
+
+  spec.dependency "SVProgressHUD", "~> 2.2.2"
 
 end
