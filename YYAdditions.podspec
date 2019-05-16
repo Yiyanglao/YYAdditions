@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   ## 头文件
   spec.source_files = 'YYAdditions/Tools/*.{h,m}'
-  spec.resource = 'YYAdditions/ImageSource/'
+  spec.resource = 'YYAdditions/ImageSource/*'
   spec.dependency "SVProgressHUD", "~> 2.2.2"
 
 end
