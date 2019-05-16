@@ -120,7 +120,7 @@ NSString const *badgeValueKey            = @"badgeValueKey";
         self.badge.transform = CGAffineTransformMakeScale(0, 0);
     } completion:^(BOOL finished) {
         [self.badge removeFromSuperview];
-        self.badge = nil;
+        //self.badge = nil;
     }];
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import "YYHelper.h"
-#import <UIKit/UIKit.h>
+#import <SVProgressHUD.h>
 
 #define Kwidth        [UIScreen mainScreen].bounds.size.width
 #define Kheight       [UIScreen mainScreen].bounds.size.height
@@ -61,7 +61,7 @@
     [YYHelper showWarningText:text style:style duration:2];
 }
 
-+(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)timelong{
++(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)dur{
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     UIView *showView = [[UIView alloc] initWithFrame:CGRectMake(1, 1,1, 1)];
     showView.backgroundColor = [UIColor blackColor];
@@ -94,10 +94,10 @@
     }
     [showView addSubview:label];
     
-    if (timelong <= 0.5) {
-        timelong = 2;
+    if (dur <= 0.5) {
+        dur = 2;
     }
-    [UIView animateWithDuration:0.4 delay:timelong-0.4 options:UIViewAnimationOptionTransitionNone animations:^{
+    [UIView animateWithDuration:0.4 delay:dur-0.4 options:UIViewAnimationOptionTransitionNone animations:^{
         showView.alpha = 0;
     } completion:^(BOOL finished) {
         [showView removeFromSuperview];

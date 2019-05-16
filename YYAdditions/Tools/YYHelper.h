@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVProgressHUD.h"
+#import <UIKit/UIKit.h>
 
 @interface YYHelper : NSObject
 
@@ -58,7 +58,7 @@ typedef NS_ENUM(NSInteger,ShowWarningStyle){
  @param style 显示方式
  */
 +(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style;
-+(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)timelong;
++(void)showWarningText:(NSString *)text style:(ShowWarningStyle)style duration:(CGFloat)dur;
 
 
 /**
